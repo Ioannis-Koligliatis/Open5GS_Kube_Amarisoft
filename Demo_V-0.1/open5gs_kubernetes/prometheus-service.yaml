@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f ngc.yaml
+    kompose.version: 1.34.0 (cbf2835db)
+  labels:
+    io.kompose.service: prometheus
+  name: prometheus
+spec:
+  type: NodePort
+  ports:
+    - name: "9090"
+      port: 9090
+      targetPort: 9090
+      nodePort: 30005
+  selector:
+    io.kompose.service: prometheus

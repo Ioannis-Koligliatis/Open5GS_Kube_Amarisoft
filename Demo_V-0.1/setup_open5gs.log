@@ -1,0 +1,259 @@
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Manifest directory './open5gs_kubernetes/' does not exist. Exiting.
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Cluster 'open5gs-cluster' already exists. Skipping creation.
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Cluster 'open5gs-cluster' already exists. Skipping creation.
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Cluster 'open5gs-cluster' already exists. Skipping creation.
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Cluster 'open5gs-cluster' already exists. Skipping creation.
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Cluster 'open5gs-cluster' already exists. Skipping creation.
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Cluster 'open5gs-cluster' already exists. Skipping creation.
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+----- Starting Open5GS K3D Setup -----
+k3d is already installed.
+kubectl is already installed.
+docker is already installed.
+Creating k3d cluster from ./clusterconfig.yaml...
+Waiting for all Kubernetes nodes to be ready...
+All 3 node(s) are ready.
+Applying Open5GS Kubernetes manifests from ./open5gs_kubernetes/...
+Attempting to open browser tabs.
+✅ Setup complete!
