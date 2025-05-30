@@ -20,9 +20,9 @@ spec:
       targetPort: 2152
       nodePort: 30002
     - name: "8805"
+      protocol: UDP
       port: 8805
       targetPort: 8805
-      nodePort: 30001
     - name: "sbi"
       protocol: TCP
       port: 7777

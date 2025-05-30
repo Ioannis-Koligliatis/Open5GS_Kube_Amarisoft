@@ -9,7 +9,7 @@ metadata:
   name: amf
 spec:
   nodeSelector:
-    kubernetes.io/hostname: k3d-open5gs-cluster-agent-1
+    kubernetes.io/hostname: k3d-open5gs-cluster-agent-0
 #  hostNetwork: true
 #  dnsPolicy: "ClusterFirstWithHostNet"
   containers:
