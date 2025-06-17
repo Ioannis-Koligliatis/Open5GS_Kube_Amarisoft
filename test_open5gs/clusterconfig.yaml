@@ -1,0 +1,36 @@
+apiVersion: k3d.io/v1alpha5
+kind: Simple
+metadata:
+  name: open5gs-cluster
+servers: 1
+agents: 2
+kubeAPI:
+  hostIP: "127.0.0.1"
+  hostPort: "6445"
+volumes:
+  - volume: /home/ioannis/mongo-data:/tmp/mongo-data
+    nodeFilters:
+      - agent:*
+ports:
+  - port: 38412:30006/sctp # SCTP (N2) AMF
+    nodeFilters:
+      - agents:0:direct
+  - port: 9090:30005 # Prometheus
+    nodeFilters:
+      - agents:*
+  - port: 3000:30004 # Grafana
+    nodeFilters:
+      - agents:*
+  - port: 2152:30003/udp # UDP (N3_GTP-U) UPF
+    nodeFilters:
+      - agents:*
+#  - port: 2152:30002/tcp # UPF
+#    nodeFilters:
+#      - agents:*
+#  - port: 8805:30001 # ???
+#    nodeFilters:
+#      - agents:*
+  - port: 9999:30000 # WEBUI
+    nodeFilters:
+      - agents:*
+

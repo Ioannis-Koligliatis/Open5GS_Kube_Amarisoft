@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    kompose.cmd: kompose --file ngc.yaml convert
+    kompose.version: 1.34.0 (cbf2835db)
+  labels:
+    io.kompose.service: pcf
+  name: pcf
+spec:
+  initContainers:
+  - name: wait-for-mongodb
+    image: mongo:6.0
+    command:
+      [
+        "sh",
+        "-c",
+        'until mongosh --host mongo --eval "db.adminCommand(\"ping\")" > /dev/null 2>&1; do echo "Waiting for MongoDB to be ready..."; sleep 2; done; echo "MongoDB is ready!"'
+      ]
+  containers:
+    - args:
+        - open5gs-pcfd
+      env:
+        - name: DB_URI
+          value: mongodb://mongo/open5gs
+      image: gradiant/open5gs:2.7.1
+      name: pcf
+      volumeMounts:
+        - mountPath: /opt/open5gs/etc/open5gs/pcf.yaml
+          name: pcf-cm0
+          subPath: pcf.yaml
+  restartPolicy: OnFailure
+  volumes:
+    - configMap:
+        items:
+          - key: pcf.yaml
+            path: pcf.yaml
+        name: pcf-cm0
+      name: pcf-cm0

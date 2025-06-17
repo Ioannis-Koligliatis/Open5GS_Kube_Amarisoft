@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: amf
+  labels:
+    io.kompose.service: amf
+  annotations:
+    kompose.cmd: kompose --file ngc.yaml convert
+    kompose.version: 1.34.0 (cbf2835db)
+spec:
+  selector:
+    io.kompose.service: amf
+  type: NodePort
+  ports:
+    - name: "sbi"
+      protocol: TCP
+      port: 7777
+      targetPort: 7777
+    - name: "metrics"
+      protocol: TCP
+      port: 9090
+      targetPort: 9090
+    - name: "ngap"
+      protocol: SCTP
+      port: 38412
+      targetPort: 38412
+      nodePort: 30006

@@ -1,0 +1,72 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ueransim-pod
+  labels:
+    app: ueransim
+spec:
+  containers:
+    - name: gnb1
+      image: gradiant/ueransim:3.2.6
+      args: ["gnb"]
+      env:
+        - name: AMF_HOSTNAME
+          value: "amf"
+        - name: GNB_HOSTNAME
+          value: "gnb1"
+        - name: GNB_IP
+          value: "127.0.0.1"
+        - name: TAC
+          value: "1"
+        - name: MCC
+          value: "001"
+        - name: MNC
+          value: "01"
+        - name: SST
+          value: "1"
+        - name: SD
+          value: "0xffffff"
+      ports:
+        - name: sctp-amf
+          containerPort: 38412
+          protocol: SCTP
+        - name: gtp-upf
+          containerPort: 2152
+          protocol: UDP
+        - name: rls-ue
+          containerPort: 4997
+          protocol: UDP
+
+    - name: ues1
+      image: gradiant/ueransim:3.2.6
+      args: ["ue", "-n", "10"]
+      env:
+        - name: GNB_HOSTNAME
+          value: "gnb1"
+        - name: GNB_IP
+          valueFrom:
+            fieldRef:
+              fieldPath: status.podIP
+        - name: APN
+          value: "internet"
+        - name: MSISDN
+          value: "0000000001"
+        - name: MCC
+          value: "001"
+        - name: MNC
+          value: "01"
+        - name: KEY
+          value: "465B5CE8B199B49FAA5F0A2EE238A6BC"
+        - name: OP_TYPE
+          value: "OPC"
+        - name: OP
+          value: "E8ED289DEBA952E4283B54E88E6183CA"
+        - name: SST
+          value: "1"
+        - name: SD
+          value: "0xffffff"
+      securityContext:
+        privileged: true
+        capabilities:
+          add: ["ALL"]
+
